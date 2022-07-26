@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Merienda';font-size: 22px;
-    background-color: white;
+    font-family: 'monospace';font-size: 22px;
+    background-color: grey;
 }
 
 header {
@@ -14,28 +14,28 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
-    color: blueviolet;
+    color: greenyellow;
     height: 60px;
     font-size: 2vw;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Merienda';font-size: 22px;
+    font-family: 'Monospace';font-size: 22px;
   }
 
 .btnHeader {
     border-radius: 10px;
-    background-color: white;
+    background-color: grey;
     text-decoration: none;
     border: 0;
     outline: 0; /* Remove border around button */
-    color: blueviolet;
-    font-family: 'Merienda';font-size: 20px;
+    color: greenyellow;
+    font-family: 'Monospace';font-size: 20px;
 }
 
 .btnHeader:hover {
 
-    background-color: pink;
+    background-color: bisque;
     
   
     
@@ -45,9 +45,9 @@ header {
     border-radius: 12px;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: cadetblue;
     color: white;
-    font-family: 'Merienda';font-size: 10px;
+    font-family: 'Monospace';font-size: 10px;
 }
 
 
@@ -60,7 +60,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
-    font-family: 'Merienda';font-size: 22px;
+    font-family: 'Monospace';font-size: 22px;
 }
 
 
@@ -72,7 +72,7 @@ header {
     grid-template-columns: repeat(2, 1fr) 2fr 1fr;  /* Create a 4X4 grid of same size*/
     grid-template-rows: repeat(10, 1fr); /* 4 rows of equal size */
     gap: 10px 10px; /* Gap on x and y grid */
-    font-family: 'Merienda';font-size: 22px;
+    font-family: 'Monospace';font-size: 22px;
 }
 
 
@@ -118,9 +118,9 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: cadetblue;
     color: white;
-    font-family: 'Merienda';font-size: 15px;
+    font-family: 'Monospace';font-size: 15px;
 }
 
 #start-quiz {
@@ -130,10 +130,10 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: cadetblue;
     place-self: center;
     color: white;
-    font-family: 'Merienda';font-size: 15px;
+    font-family: 'Monospace';font-size: 15px;
 }
 
 #answer1 {
@@ -143,9 +143,9 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: cadetblue;
     color: white;
-    font-family: 'Merienda';font-size: 15px;
+    font-family: 'Monospace';font-size: 15px;
     margin-left: 25px;
 }
 
@@ -156,9 +156,9 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: cadetblue;
     color: white;
-    font-family: 'Merienda';font-size: 15px;
+    font-family: 'Monospace';font-size: 15px;
     margin-left: 25px;
     margin-left: 25px;
 
@@ -171,9 +171,9 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: cadetblue;
     color: white;
-    font-family: 'Merienda';font-size: 15px;
+    font-family: 'Monospace';font-size: 15px;
     margin-left: 25px;
 }
 
@@ -184,9 +184,9 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: cadetblue;
     color: white;
-    font-family: 'Merienda';font-size: 15px;
+    font-family: 'Monospace';font-size: 15px;
     margin-left: 25px;
 }
 
@@ -233,7 +233,7 @@ header {
     grid-template-columns: 4fr;  /* Create a 4X4 grid of same size*/
     grid-template-rows: repeat(2, 1fr); /* 4 rows of equal size */
     gap: 10px 10px; /* Gap on x and y grid */
-    font-family: 'Merienda';font-size: 22px;
+    font-family: 'Monospace';font-size: 22px;
 
 }
 
@@ -252,31 +252,31 @@ header {
     
     #answer1:hover{
         
-        background-color: purple;
+        background-color: cyan;
         
     }
 
     #answer2:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
     #answer3:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
     #answer4:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
     #submitScore:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
@@ -313,31 +313,31 @@ header {
 
     #answer1:hover{
         
-        background-color: purple;
+        background-color: cyan;
         
     }
 
     #answer2:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
     #answer3:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
     #answer4:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
     #submitScore:hover{
         
-        background-color: purple;
+        background-color: cyan;
     
     }
 
