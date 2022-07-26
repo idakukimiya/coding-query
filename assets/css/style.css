@@ -1,11 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'monospace';font-size: 22px;
+    font-family: 'monospace';font-size: 30px;
     background-color: grey;
 }
 
@@ -17,10 +16,8 @@ header {
     color: greenyellow;
     height: 60px;
     font-size: 2vw;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Monospace';font-size: 22px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Monospace';font-size: 60px;
   }
 
 .btnHeader {
@@ -28,14 +25,13 @@ header {
     background-color: grey;
     text-decoration: none;
     border: 0;
-    outline: 0; /* Remove border around button */
     color: greenyellow;
-    font-family: 'Monospace';font-size: 20px;
+    font-family: 'Monospace';font-size: 50px;
 }
 
 .btnHeader:hover {
 
-    background-color: bisque;
+    background-color: whitesmoke;
     
   
     
@@ -44,17 +40,15 @@ header {
 .btn {
     border-radius: 12px;
     border: 0;
-    outline: 0; /* Remove border around button */
     background-color: cadetblue;
     color: white;
-    font-family: 'Monospace';font-size: 10px;
+    font-family: 'Monospace';font-size: 30px;
 }
 
 
 
 #mainDiv {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 25%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -63,17 +57,14 @@ header {
     font-family: 'Monospace';font-size: 22px;
 }
 
-
-
-
 #gridContainer {
-   /* width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) 2fr 1fr;  /* Create a 4X4 grid of same size*/
-    grid-template-rows: repeat(10, 1fr); /* 4 rows of equal size */
-    gap: 10px 10px; /* Gap on x and y grid */
-    font-family: 'Monospace';font-size: 22px;
-}
+    /* width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
+     display: grid;
+     grid-template-columns: repeat(2, 1fr) 2fr 1fr;  /* Create a 4X4 grid of same size*/
+     grid-template-rows: repeat(10, 1fr); /* 4 rows of equal size */
+     gap: 10px 10px; /* Gap on x and y grid */
+     font-family: 'Monospace';font-size: 22px;
+ }
 
 
 #questionDisplay {
@@ -116,8 +107,6 @@ header {
     grid-row: 7 / span 1;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
-    border: 0;
-    outline: 0; /* Remove border around button */
     background-color: cadetblue;
     color: white;
     font-family: 'Monospace';font-size: 15px;
@@ -128,8 +117,6 @@ header {
     grid-row: 5 / span 1;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
-    border: 0;
-    outline: 0; /* Remove border around button */
     background-color: cadetblue;
     place-self: center;
     color: white;
@@ -141,8 +128,6 @@ header {
     grid-row: 6 / span 1;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
-    border: 0;
-    outline: 0; /* Remove border around button */
     background-color: cadetblue;
     color: white;
     font-family: 'Monospace';font-size: 15px;
@@ -154,8 +139,6 @@ header {
     grid-row: 7 / span 1;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
-    border: 0;
-    outline: 0; /* Remove border around button */
     background-color: cadetblue;
     color: white;
     font-family: 'Monospace';font-size: 15px;
@@ -169,8 +152,6 @@ header {
     grid-row: 8 / span 1;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
-    border: 0;
-    outline: 0; /* Remove border around button */
     background-color: cadetblue;
     color: white;
     font-family: 'Monospace';font-size: 15px;
@@ -182,8 +163,6 @@ header {
     grid-row: 9 / span 1;
     padding: 10px 10px 10px 10px;
     border-radius: 10%;
-    border: 0;
-    outline: 0; /* Remove border around button */
     background-color: cadetblue;
     color: white;
     font-family: 'Monospace';font-size: 15px;
