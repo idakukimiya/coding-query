@@ -1,5 +1,10 @@
 # Coding Query
 
+Deployed URL: https://idakukimiya.github.io/coding-query/
+GitHub URL: https://github.com/idakukimiya/coding-query
+
+This assignment did not have any starting code, so 
+
 
 This program will allow the user to take typical coding assessment includes both mulitple-choice questions and interactive coding challenges.
 
