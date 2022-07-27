@@ -559,13 +559,13 @@ startQuizBtnEl.addEventListener("click", function() {
                             answerCorrectWrong.style.display='none'; // When time is over correct or wrong will go away.
                             startQuizBtnEl.style.display = 'none'; // Remove Start Quiz button.
                             //answerCorrectWrong.style.display=""; // Enables text content on correct and wrong answers
-                            questionDisplay.textContent = "You have finished the quiz!";
+                            questionDisplay.textContent = "Finished!";
                             finalScoreDisplay.style.display = ""; // Allow display for final score
                             enterInitials.style.display = ""; // Display Message Enter initials
                             enterInitialsTextArea.style.display="";  // Capture user score once submitted is clicked.
                             finalAnswerCheck = 1; // Final Wrong
                             lastQuestionWrong();
-                            finalScoreDisplay.textContent = "Your final score is: " + highScore; // Assign the latest high score.
+                            finalScoreDisplay.textContent = "Final Score: " + highScore; // Assign the latest high score.
                             enterInitials.textContent = "Enter initials: "
                             submitScoreEl.style.display = "";
                             submitScoreEl.textContent = "Submit";                   
