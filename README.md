@@ -1,6 +1,7 @@
 # Coding Query
 
 Deployed URL: https://idakukimiya.github.io/coding-query/
+
 GitHub URL: https://github.com/idakukimiya/coding-query
 
 This assignment did not have any starting code, so 
