@@ -1,4 +1,4 @@
-var quizStatus = true; // Know the status of the quiz. Quiz is not running = false , running = true
+
 var questionNumber = 0; // Track the question answered.
 var answerNumber = 0; // Track next answers to show
 var score = 0; // Max value by decreasing each wrong answer
